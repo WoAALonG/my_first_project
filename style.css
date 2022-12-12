@@ -1,0 +1,175 @@
+пш* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #3f313f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: left;
+    color: #3f313f;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 10px 0px 10px 0px;
+}
+
+/*======== HEADER ========*/
+.header {
+    background-color: #3f313f;
+    color: #e3e9f3;
+    padding: 40px 0;
+}
+
+.header_img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.header_warp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.person_warp {
+    margin-left: 70px;
+}
+
+/*__________________________________________________________________________________*/
+
+.experience_wrap_main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+}
+
+.experience_warp_year {
+    padding-right: 50px;
+    min-width: 100px;
+}
+
+.experience_year {
+    padding: 0px;
+}
+
+.language {
+    min-height: 150px;
+}
+
+.language_item {
+    list-style-type: none;
+}
+
+.language_item::before {
+    content: "\2BC0";
+    color: #e5d6d2;
+    padding-right: 5px
+}
+
+/*======== FORM ========*/
+.form {
+    background-color: #e5d6d2;
+    min-height: 300px;
+}
+
+.form_warp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form__warp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form_title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.form_name,
+.form_email,
+.form_massage {
+    background-color: #e5d6d2;
+    border: 1px #beb1ae;
+    border-style: none none solid none;
+    margin: 10px 30px 10px 0px;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+.form_massage {
+    resize: none;
+    width: 430px;
+}
+
+.form_btn {
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #3f313f;
+    border: 0px;
+    color: #fff;
+}
+
+.form_btn:hover {
+    background-color: #958995;
+}
+
+/*__________________________________________________________________________________*/
+
+.footer {
+    background-color: #3f313f;
+    color: #fff;
+}
+
+.footer_title {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.footer_item {
+    list-style-type: none;
+}
+
+.footer_item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_item a:hover {
+    color: #e5d6d2;
+}
+
+.arrc {
+    color: #958995;
+    text-align: center;
+    padding: 20px 0px;
+}
